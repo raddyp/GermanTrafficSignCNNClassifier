@@ -75,8 +75,7 @@ def process_data_from_file(src_dir,filename,width,height):
         res_im = cv2.resize(image,(height,width))
         data.append(np.array(res_im))        
 
-    data = np.array(data)
-    data = data.astype('float32')/255
+    data = np.array(data)    
     labels = np.array(labels)
     randomize = np.arange(len(data))
     np.random.shuffle(randomize)
