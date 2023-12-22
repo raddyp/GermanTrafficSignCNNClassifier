@@ -34,6 +34,7 @@ How to:
 3. Setup directory structure as shown above "Active Directory structure".
 4. Run "datavectorization_h5.py" in a python ide to generate .h5 data files.(change paths, filenames as necessary)
 5. Run "Traffic_sign_classifier.py" in a python ide to train, save, test model, generate plots and reports.
+6. Load the model in the repo to test/deploy if you want to skip training and analysis.
 
 Params.txt - network architecture parameters and values
 signnames.csv - class names for classification report
