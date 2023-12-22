@@ -1,0 +1,39 @@
+Parameters & Hyper parameters
+
+    1. Train set size - 31367x50x50x3
+    2. Validation set size - 7842x50x50x3
+    3. Test set size - 12630x50x50x3
+    4. Num of classes - 43
+    5. Input_shape – 50x50x3
+    6. Total parameters - 628843
+    7. Trainable parameters - 628843
+    8. Convolution Filter size – 3x3
+    9. Activation function – relu
+    10. Maxpool size – 2x2
+    11. Dropout rate = 0.5
+    12. Optimizer – Adam
+    13. Loss - Categorical crossentropy
+    14. Metrics - accuracy
+    15. Num of epochs - 20
+    16. Batch_size = 512
+
+
+System specs – Intel 
+
+    1. Processor – Intel Core i7-10750H CPU @ 2.60GHz
+    2. Ram – 16 GB
+    3. GPU – Nvidia RTX 3070 laptop
+    4. Os – Windows 10 Home
+    5. Python Env – Anaconda-Spyder 3.9.18
+    6. Tensorflow/ keras – 2.10.0 with DirectML plugin for GPU use
+    7. Opencv – 4.5.3 (for reading and processing images)
+    8. Other Libraries – numpy, os, h5py, random, csv, pandas, matplotlib, sklearn, shutil, gc
+
+Dataset – German traffic sign dataset
+
+https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign
+
+
+
+
+
